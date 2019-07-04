@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.menubar{
+  float: left;
+}
+
+
+
+h2 {
+    color: #212121;
+}
+.headerbar {
+    padding: 10px;
+    width: 100%;
+    background-color:cornflowerblue;
+}
+
+
+.header_name{
+      
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin-left: 40%;
+   
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .boom{
+    width: 100%;
+    background-color: #e9ecef;
+    padding: 4rem;
+    border-radius: .3rem;
+    font-family: 'Lato';
+    position: relative;
+  
+  }
+  .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar {
+    display: inline-block;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    width: 213px;
+}
+.kv-reqd {
+    color: red;
+    font-family: monospace;
+    font-weight: normal;
+}

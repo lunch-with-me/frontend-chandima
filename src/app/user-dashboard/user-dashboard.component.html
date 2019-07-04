@@ -1,0 +1,105 @@
+
+<div class="container">
+    
+      
+  <div class="headerbar">
+  
+    <div class="header_name">
+  <span>Lunch With ME</span>
+  </div><!--headder name"-->
+
+<a href="javascript:void(0)" (click)="logout()">Logout</a>
+  </div><!-- headerbar-->
+
+
+
+<div class="row">
+
+  <div class="col-sm-2" style="background-color:lavenderblush; ">
+  
+      <div class="btn-group-vertical">
+            
+<div class="header_buttons">
+
+    <button mat-fab (click)="movetoprofile()" matTooltip="My profile" aria-label="Button that displays a tooltip when focused or hovered over">
+        
+        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" alt="Avatar" class="md-avatar-rounded-circle ">
+
+      </button>
+      <br><br>
+
+  
+  <button mat-fab matTooltip="Messages" aria-label="Button that displays a tooltip when focused or hovered over">
+    <mat-icon aria-label="Example icon-button with a heart icon">message</mat-icon>
+  </button>
+  <br><br>
+
+  <button mat-fab matTooltip="Notifications" aria-label="Button that displays a tooltip when focused or hovered over">
+    <mat-icon aria-label="Example icon-button with a heart icon">notification_important</mat-icon>
+  </button> <br><br>
+
+
+  <button mat-fab matTooltip="Super Likes" aria-label="Button that displays a tooltip when focused or hovered over">
+    <mat-icon aria-label="Example icon-button with a heart icon" (click)="movetoprofile()">favorite</mat-icon>
+  </button> <br><br>
+
+  <button mat-fab (click)="movetosettings()" matTooltip="settings" aria-label="Button that displays a tooltip when focused or hovered over">
+      <mat-icon aria-label="Example icon-button with a heart icon">settings</mat-icon>
+    </button> <br><br>
+  
+</div>
+
+        </div><!-- button group vertical-->
+  </div><!--left bar-->
+
+  <div class="col-sm-10" style="background-color:lavender;">
+    
+    <div class="boom">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+
+
+</div>
+</div> <!-- right bar-->
+
+</div> <!--row-->
+
+  
+  <!--h1 class="display-4">Hello, {{username}}!</h1>-->
+  
+  
+   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+

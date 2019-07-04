@@ -1,0 +1,11 @@
+.alertbox{
+background-color:#C8C8C8;
+}
+
+.btn{
+    border-radius: 25px;
+    background-color: turquoise;
+    width:70px;
+    margin-left: 40%;
+    outline: none;
+}
