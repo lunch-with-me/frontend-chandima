@@ -11,20 +11,32 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class MyprofileComponent implements OnInit {
   imageUrl:string = "/assets/images/default.png";
   fileToUpload: File = null;
-
+  
 
   username = '';
   email =  '';
+  telephone='';
+  gender='';
+  message=''; 
+  profession='';
   constructor(private myService:MyserviceService,private _router: Router) { 
 
     
-     this.email= this.myService.getEmail();
+   //  this.email= this.myService.getEmail();
      
      
     this.myService.getUserName()
     .subscribe(
-      data => this.username= data.toString(),
-    
+      data => {
+        console.log(data)
+      //  this.email= data.email.toString()
+      //   this.fullname= data.fullname.toString()
+      //  this.gender=data.gender.toString()
+      //   this.telephone= data.telephone.toString()
+      //   this.message=data.message.toString()
+      //   this.profession=data.profession.toString()
+      }
+      
     )
 
     }

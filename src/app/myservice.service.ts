@@ -26,7 +26,7 @@ export class MyserviceService {
   }
 
   getUserName() {
-    return this._http.get(this.host+ 'auth/username', {
+    return this._http.get(this.host+ 'auth/profile', {
           observe: 'body',
           params: new HttpParams().append('token', localStorage.getItem('token'))
         });

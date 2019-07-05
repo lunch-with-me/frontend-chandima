@@ -67,11 +67,13 @@ export class ChangePasswordComponent implements OnInit {
               data => {
                 console.log("reset password is succeeded");
                 this.successMessage = 'Successfully updated yor new password!.';
+               
                 // this._router.navigate(['/registerdetails']);
               
               },
           error => this.successMessage = 'Invalid Email Address'
         );
+        alert('Successfully updated yor new password!.');
     }
     
   }
